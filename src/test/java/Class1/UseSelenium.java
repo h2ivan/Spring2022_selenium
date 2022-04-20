@@ -11,12 +11,10 @@ public class UseSelenium {
 
         //path of chromeDriver
 
-        System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver");
 
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://www.amazon.com/");
-
     }
-
 }
